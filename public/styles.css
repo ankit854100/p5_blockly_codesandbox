@@ -1,0 +1,84 @@
+html,
+body {
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#root {
+  height: 100% !important;
+}
+
+#wrapper {
+  display: flex !important;
+  flex-direction: row !important;
+  height: 100% !important;
+}
+
+.blocklyContainer {
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.innerWrapper {
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  padding-right: 0.3125em !important;
+}
+
+.buttonContainer {
+  text-align: right !important;
+  padding: 0.3125em 0 0.3125em !important;
+}
+
+.customButton {
+  margin-left: 0.3125em !important;
+}
+
+#blocklyDiv {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.blocklySvg {
+  /* border-radius: 5px !important; */
+  /* border: 1px solid black !important; */
+  background-color: white !important;
+  /* #c3ccd9 */
+}
+
+.blocklyToolboxDiv {
+  background-color: white !important;
+  border: 0.0625em solid #c3ccd9;
+}
+
+.blocklyFlyoutBackground {
+  fill: #f9f9f9 !important;
+  stroke: #c3ccd9 !important;
+  stroke-width: 0.0625em !important;
+}
+
+.blocklyMainBackground {
+  /* stroke-width: 0 !important; */
+  rx: 0.3125em !important;
+  ry: 0.3125em !important;
+  stroke: #c3ccd9 !important;
+  stroke-width: 2 !important;
+}
+
+.iframeContainer {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 45% !important;
+  /* background-color: #ffb8cc !important;s */
+  border: 0.0625em solid #c3ccd9 !important;
+  border-radius: 0.3125em !important;
+  margin: 2.5625em 0 0 !important;
+}
+
+#blocklyIframe {
+  height: 100% !important ;
+  width: 100% !important;
+}
